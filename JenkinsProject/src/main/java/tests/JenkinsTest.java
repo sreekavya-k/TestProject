@@ -12,7 +12,7 @@ public WebDriver driver;
 public void openBlog() {
 	driver.get("https://www.softwaretestingmaterial.com");
 }
-
+//Before class
 @BeforeClass
 public void beforeClass() {
 	System.setProperty("webdriver.gecko.driver", "E:\\Library\\geckodriver-v0.28.0-win64\\geckodriver.exe");
